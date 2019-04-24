@@ -7,7 +7,7 @@ $password = filter_var($_POST['password'], FILTER_SANITIZE_STRING);
 #Makeing PDO connection
 $servername = "localhost";
 $username = "u302406342_kevin";
-$pass = "Y1o232nkkguZ";
+$pass = "PASSWORD";
 $dbname = "u302406342_kevin";
 
 try {
