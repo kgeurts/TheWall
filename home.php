@@ -3,7 +3,7 @@ require "check-login.php";
 if ( isset($_POST['upload'])) {
   $target = "images/".basename($_FILES['image']['name']);
 
-  $db = mysqli_connect("localhost", "u302406342_kevin", "Y1o232nkkguZ", "u302406342_kevin");
+  $db = mysqli_connect("localhost", "u302406342_kevin", "PASSWORD", "u302406342_kevin");
   
   $image = $_FILES['image']['name'];
   $text = $_POST['text'];
